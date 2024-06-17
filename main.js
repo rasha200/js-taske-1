@@ -1,57 +1,66 @@
 //taske 1 (1)
 let cash = 1000;
 let currentliabilities = 500;
-console.log(cash/currentliabilities);
+let Cashflowratio=cash/currentliabilities
+console.log(Cashflowratio);
 
 //taske 1 (2)
 let revenues= 1000;
 let expenses = 500;
-console.log(revenues-expenses);
+let Netincome=revenues-expenses
+console.log(Netincome);
 
 
 
 //taske 1 (3)
 let liabilities= 1000;
 let equity= 500;
-console.log( liabilities+equity);
+let Totalassets= liabilities+equity
+console.log(Totalassets);
 
 
 //taske 1 (4)
 let profit= 1000;
 let sales= 500;
-console.log(profit*sales);
+let Netincomeusingprofitmarginandsales= profit*sales;
+console.log(Netincomeusingprofitmarginandsales);
 
 
 //taske 1 (5)
 let x = 7;
 let y = 9;
 let z = 2;
-console.log((x+y+z)/3);
+let Average=(x+y+z)/3 
+console.log(Average);
 
 
 //taske 1 (6)
-let v = 150;
-var r = 0.3;
-console.log(v-v*r);
+let price = 150;
+var discount = 0.3;
+let dd=price*discount;
+let pp=price-dd;
+console.log(pp);
 
 
 //taske 1 (7)
-let rr= 20;
-if (rr > 18 && rr<30){
+let age= 20;
+if (age > 18 && age<30){
     console.log(true);
 };
 
 
 //taske 1 (8)
 let num = 2;
-console.log(num**5);
+let Exponential=num**3;
+console.log(Exponential);
 
 
 
 //taske 1 (9)
 let num1 = 10;
 let num2 = 4;
-console.log(num1%num2);
+let Remainder=num1%num2;
+console.log(Remainder);
 
 
 //taske 2
